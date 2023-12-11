@@ -52,7 +52,19 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 ),
               ],
             ),
-
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'About You',
+                  style: GoogleFonts.lato(
+                    fontSize: 50,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
